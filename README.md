@@ -1,14 +1,4 @@
-*[English](README.md) ∙ [日本語](README-ja.md) ∙ [简体中文](README-zh-Hans.md) ∙ [繁體中文](README-zh-TW.md) | [العَرَبِيَّة‎](https://github.com/donnemartin/system-design-primer/issues/170) ∙ [বাংলা](https://github.com/donnemartin/system-design-primer/issues/220) ∙ [Português do Brasil](https://github.com/donnemartin/system-design-primer/issues/40) ∙ [Deutsch](https://github.com/donnemartin/system-design-primer/issues/186) ∙ [ελληνικά](https://github.com/donnemartin/system-design-primer/issues/130) ∙ [עברית](https://github.com/donnemartin/system-design-primer/issues/272) ∙ [Italiano](https://github.com/donnemartin/system-design-primer/issues/104) ∙ [한국어](https://github.com/donnemartin/system-design-primer/issues/102) ∙ [فارسی](https://github.com/donnemartin/system-design-primer/issues/110) ∙ [Polski](https://github.com/donnemartin/system-design-primer/issues/68) ∙ [русский язык](https://github.com/donnemartin/system-design-primer/issues/87) ∙ [Español](https://github.com/donnemartin/system-design-primer/issues/136) ∙ [ภาษาไทย](https://github.com/donnemartin/system-design-primer/issues/187) ∙ [Türkçe](https://github.com/donnemartin/system-design-primer/issues/39) ∙ [tiếng Việt](https://github.com/donnemartin/system-design-primer/issues/127) ∙ [Français](https://github.com/donnemartin/system-design-primer/issues/250) | [Add Translation](https://github.com/donnemartin/system-design-primer/issues/28)*
-
-**Help [translate](TRANSLATIONS.md) this guide!**
-
 # The System Design Primer
-
-<p align="center">
-  <img src="images/jj3A5N8.png">
-  <br/>
-</p>
-
 ## Motivation
 
 > Learn how to design large-scale systems.
@@ -43,60 +33,41 @@ Additional topics for interview prep:
 * [Object-oriented design interview questions, **with solutions**](#object-oriented-design-interview-questions-with-solutions)
 * [Additional system design interview questions](#additional-system-design-interview-questions)
 
-## Anki flashcards
+## Study guide
 
-<p align="center">
-  <img src="images/zdCAkB3.png">
-  <br/>
-</p>
+> Suggested topics to review based on your interview timeline (short, medium, long).
+**Q: For interviews, do I need to know everything here?**
 
-The provided [Anki flashcard decks](https://apps.ankiweb.net/) use spaced repetition to help you retain key system design concepts.
+**A: No, you don't need to know everything here to prepare for the interview**.
 
-* [System design deck](https://github.com/donnemartin/system-design-primer/tree/master/resources/flash_cards/System%20Design.apkg)
-* [System design exercises deck](https://github.com/donnemartin/system-design-primer/tree/master/resources/flash_cards/System%20Design%20Exercises.apkg)
-* [Object oriented design exercises deck](https://github.com/donnemartin/system-design-primer/tree/master/resources/flash_cards/OO%20Design.apkg)
+What you are asked in an interview depends on variables such as:
 
-Great for use while on-the-go.
+* How much experience you have
+* What your technical background is
+* What positions you are interviewing for
+* Which companies you are interviewing with
+* Luck
 
-### Coding Resource: Interactive Coding Challenges
+More experienced candidates are generally expected to know more about system design.  Architects or team leads might be expected to know more than individual contributors.  Top tech companies are likely to have one or more design interview rounds.
 
-Looking for resources to help you prep for the [**Coding Interview**](https://github.com/donnemartin/interactive-coding-challenges)?
+Start broad and go deeper in a few areas.  It helps to know a little about various key system design topics.  Adjust the following guide based on your timeline, experience, what positions you are interviewing for, and which companies you are interviewing with.
 
-<p align="center">
-  <img src="images/b4YtAEN.png">
-  <br/>
-</p>
+* **Short timeline** - Aim for **breadth** with system design topics.  Practice by solving **some** interview questions.
+* **Medium timeline** - Aim for **breadth** and **some depth** with system design topics.  Practice by solving **many** interview questions.
+* **Long timeline** - Aim for **breadth** and **more depth** with system design topics.  Practice by solving **most** interview questions.
 
-Check out the sister repo [**Interactive Coding Challenges**](https://github.com/donnemartin/interactive-coding-challenges), which contains an additional Anki deck:
+| | Short | Medium | Long |
+|---|---|---|---|
+| - [ ] Read through the [System design topics](#index-of-system-design-topics) to get a broad understanding of how systems work | :+1: | :+1: | :+1: |
+| - [ ] Read through a few articles in the [Company engineering blogs](#company-engineering-blogs) for the companies you are interviewing with | :+1: | :+1: | :+1: |
+| - [ ] Read through a few [Real world architectures](#real-world-architectures) | :+1: | :+1: | :+1: |
+| - [ ] Review [How to approach a system design interview question](#how-to-approach-a-system-design-interview-question) | :+1: | :+1: | :+1: |
+| - [ ] Work through [System design interview questions with solutions](#system-design-interview-questions-with-solutions) | Some | Many | Most |
+| - [ ] Work through [Object-oriented design interview questions with solutions](#object-oriented-design-interview-questions-with-solutions) | Some | Many | Most |
+| - [ ] Review [Additional system design interview questions](#additional-system-design-interview-questions) | Some | Many | Most |
 
-* [Coding deck](https://github.com/donnemartin/interactive-coding-challenges/tree/master/anki_cards/Coding.apkg)
-
-## Contributing
-
-> Learn from the community.
-
-Feel free to submit pull requests to help:
-
-* Fix errors
-* Improve sections
-* Add new sections
-* [Translate](https://github.com/donnemartin/system-design-primer/issues/28)
-
-Content that needs some polishing is placed [under development](#under-development).
-
-Review the [Contributing Guidelines](CONTRIBUTING.md).
 
 ## Index of system design topics
-
-> Summaries of various system design topics, including pros and cons.  **Everything is a trade-off**.
->
-> Each section contains links to more in-depth resources.
-
-<p align="center">
-  <img src="images/jrUBAF7.png">
-  <br/>
-</p>
-
 - [ ] [System design topics: start here](#system-design-topics-start-here)
     - [ ] [Step 1: Review the scalability video lecture](#step-1-review-the-scalability-video-lecture)
     - [ ] [Step 2: Review the scalability article](#step-2-review-the-scalability-article)
@@ -178,43 +149,6 @@ Review the [Contributing Guidelines](CONTRIBUTING.md).
 - [ ] [Credits](#credits)
 - [ ] [Contact info](#contact-info)
 - [ ] [License](#license)
-
-## Study guide
-
-> Suggested topics to review based on your interview timeline (short, medium, long).
-
-![Imgur](images/OfVllex.png)
-
-**Q: For interviews, do I need to know everything here?**
-
-**A: No, you don't need to know everything here to prepare for the interview**.
-
-What you are asked in an interview depends on variables such as:
-
-* How much experience you have
-* What your technical background is
-* What positions you are interviewing for
-* Which companies you are interviewing with
-* Luck
-
-More experienced candidates are generally expected to know more about system design.  Architects or team leads might be expected to know more than individual contributors.  Top tech companies are likely to have one or more design interview rounds.
-
-Start broad and go deeper in a few areas.  It helps to know a little about various key system design topics.  Adjust the following guide based on your timeline, experience, what positions you are interviewing for, and which companies you are interviewing with.
-
-* **Short timeline** - Aim for **breadth** with system design topics.  Practice by solving **some** interview questions.
-* **Medium timeline** - Aim for **breadth** and **some depth** with system design topics.  Practice by solving **many** interview questions.
-* **Long timeline** - Aim for **breadth** and **more depth** with system design topics.  Practice by solving **most** interview questions.
-
-| | Short | Medium | Long |
-|---|---|---|---|
-| - [ ] Read through the [System design topics](#index-of-system-design-topics) to get a broad understanding of how systems work | :+1: | :+1: | :+1: |
-| - [ ] Read through a few articles in the [Company engineering blogs](#company-engineering-blogs) for the companies you are interviewing with | :+1: | :+1: | :+1: |
-| - [ ] Read through a few [Real world architectures](#real-world-architectures) | :+1: | :+1: | :+1: |
-| - [ ] Review [How to approach a system design interview question](#how-to-approach-a-system-design-interview-question) | :+1: | :+1: | :+1: |
-| - [ ] Work through [System design interview questions with solutions](#system-design-interview-questions-with-solutions) | Some | Many | Most |
-| - [ ] Work through [Object-oriented design interview questions with solutions](#object-oriented-design-interview-questions-with-solutions) | Some | Many | Most |
-| - [ ] Review [Additional system design interview questions](#additional-system-design-interview-questions) | Some | Many | Most |
-
 ## How to approach a system design interview question
 
 > How to tackle a system design interview question.
