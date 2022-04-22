@@ -70,7 +70,7 @@ Start broad and go deeper in a few areas.  It helps to know a little about vario
 ## Index of system design topics
 - [ ] [System design topics: start here](#system-design-topics-start-here)
     - [x] [Step 1: Review the scalability video lecture](#step-1-review-the-scalability-video-lecture)
-    - [ ] [Step 2: Review the scalability article](#step-2-review-the-scalability-article)
+    - [x] [Step 2: Review the scalability article](#step-2-review-the-scalability-article)
     - [ ] [Next steps](#next-steps)
 - [ ] [Performance vs scalability](#performance-vs-scalability)
 - [ ] [Latency vs throughput](#latency-vs-throughput)
