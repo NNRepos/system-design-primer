@@ -137,18 +137,12 @@ Start broad and go deeper in a few areas.  It helps to know a little about vario
     - [x] [User datagram protocol (UDP)](#user-datagram-protocol-udp)
     - [x] [Remote procedure call (RPC)](#remote-procedure-call-rpc)
     - [x] [Representational state transfer (REST)](#representational-state-transfer-rest)
-- [ ] [Security](#security)
+- [x] [Security](#security)
 - [ ] [Appendix](#appendix)
-    - [ ] [Powers of two table](#powers-of-two-table)
-    - [ ] [Latency numbers every programmer should know](#latency-numbers-every-programmer-should-know)
-    - [ ] [Additional system design interview questions](#additional-system-design-interview-questions)
-    - [ ] [Real world architectures](#real-world-architectures)
+    - [x] [Powers of two table](#powers-of-two-table)
+    - [x] [Latency numbers every programmer should know](#latency-numbers-every-programmer-should-know)
     - [ ] [Company architectures](#company-architectures)
-    - [ ] [Company engineering blogs](#company-engineering-blogs)
-- [ ] [Under development](#under-development)
-- [ ] [Credits](#credits)
-- [ ] [Contact info](#contact-info)
-- [ ] [License](#license)
+
 ## How to approach a system design interview question
 
 > How to tackle a system design interview question.
