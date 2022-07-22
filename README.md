@@ -58,9 +58,9 @@ Start broad and go deeper in a few areas.  It helps to know a little about vario
 
 | | Short | Medium | Long |
 |---|---|---|---|
-| - [ ] Read through the [System design topics](#index-of-system-design-topics) to get a broad understanding of how systems work | :+1: | :+1: | :+1: |
-| - [ ] Read through a few articles in the [Company engineering blogs](#company-engineering-blogs) for the companies you are interviewing with | :+1: | :+1: | :+1: |
-| - [ ] Read through a few [Real world architectures](#real-world-architectures) | :+1: | :+1: | :+1: |
+| - [x] Read through the [System design topics](#index-of-system-design-topics) to get a broad understanding of how systems work | :+1: | :+1: | :+1: |
+| - [x] Read through a few articles in the [Company engineering blogs](#company-engineering-blogs) for the companies you are interviewing with | :+1: | :+1: | :+1: |
+| - [x] Read through a few [Real world architectures](#real-world-architectures) | :+1: | :+1: | :+1: |
 | - [ ] Review [How to approach a system design interview question](#how-to-approach-a-system-design-interview-question) | :+1: | :+1: | :+1: |
 | - [ ] Work through [System design interview questions with solutions](#system-design-interview-questions-with-solutions) | Some | Many | Most |
 | - [ ] Work through [Object-oriented design interview questions with solutions](#object-oriented-design-interview-questions-with-solutions) | Some | Many | Most |
@@ -138,10 +138,9 @@ Start broad and go deeper in a few areas.  It helps to know a little about vario
     - [x] [Remote procedure call (RPC)](#remote-procedure-call-rpc)
     - [x] [Representational state transfer (REST)](#representational-state-transfer-rest)
 - [x] [Security](#security)
-- [ ] [Appendix](#appendix)
+- [x] [Appendix](#appendix)
     - [x] [Powers of two table](#powers-of-two-table)
     - [x] [Latency numbers every programmer should know](#latency-numbers-every-programmer-should-know)
-    - [ ] [Company architectures](#company-architectures)
 
 ## How to approach a system design interview question
 
